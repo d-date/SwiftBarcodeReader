@@ -16,7 +16,8 @@ You can specifiy `AVMetadataObjectTypes` as enum, requirement of change camera p
 ```swift
 import SwiftBarcodeReader
 
-presentBarcodeReader(scanTypes: [.EAN13Code],
+func appear(){
+        presentBarcodeReader(scanTypes: [.EAN13Code],
                              needChangePositionButton: true,
                              success: {[unowned self] (type, value) in
             print("type:\(type) value:\(value)")
@@ -34,6 +35,7 @@ presentBarcodeReader(scanTypes: [.EAN13Code],
                 print("error:\(error)")
             }
         }
+    }
 ```
 
 
@@ -50,6 +52,14 @@ pod "SwiftBarcodeReader"
 ```
 
 ### Carthage
+
+Prepare Cartfile, then add below.
+
+``` ruby
+github "d-date/SwiftBarcodeReader"
+```
+
+Run below on Terminal.
 
 ``` ruby
 carthage update --platform-iOS
