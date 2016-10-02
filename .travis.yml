@@ -2,11 +2,12 @@
 # * http://www.objc.io/issue-6/travis-ci.html
 # * https://github.com/supermarin/xcpretty#usage
 
-osx_image: xcode8.0
-language: swift
+# osx_image: xcode8.0
+language: objective-c
 # cache: cocoapods
 # podfile: Example/Podfile
-# before_install:
+before_install:
+  - brew update && brew upgrade xctool
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
