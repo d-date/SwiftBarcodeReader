@@ -25,12 +25,12 @@ func appear(){
 
         }) {(canceled, error) in
             
-            //cancel handler when tapped back button
+            //cancel handle when tapped back button
             if canceled {
                 print("canceled")
             }
             
-            //error handler when occured some error
+            //error handle when occured some error
             if error != nil {
                 print("error:\(error)")
             }
@@ -76,3 +76,8 @@ Daiki Matsudate([@d_date](https://twitter.com/d_date))
 ## License
 
 SwiftBarcodeReader is available under the MIT license. See the LICENSE file for more info.
+
+## TODO
+
+* Custermizable Capturing UI
+* Show Capturing Rect
