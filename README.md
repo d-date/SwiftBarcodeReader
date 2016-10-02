@@ -5,24 +5,63 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftBarcodeReader.svg?style=flat)](http://cocoapods.org/pods/SwiftBarcodeReader)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftBarcodeReader.svg?style=flat)](http://cocoapods.org/pods/SwiftBarcodeReader)
 
-## Example
+This is a helper library for capturing barcode or QR written in Swift.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Usage
+
+On calling `presentBarcodeReader`, capturing View Controller will be modaled.
+
+You can specifiy `AVMetadataObjectTypes` as enum, requirement of change camera position button and handling result/error using closure.
+
+```swift
+import SwiftBarcodeReader
+
+presentBarcodeReader(scanTypes: [.EAN13Code],
+                             needChangePositionButton: true,
+                             success: {[unowned self] (type, value) in
+            print("type:\(type) value:\(value)")
+            self.resultLabel.text = "\(value)"
+
+        }) {(canceled, error) in
+            
+            //cancel handler when tapped back button
+            if canceled {
+                print("canceled")
+            }
+            
+            //error handler when occured some error
+            if error != nil {
+                print("error:\(error)")
+            }
+        }
+```
+
 
 ## Requirements
+* Xcode 8 and Swift 3.0
+* iOS 8.0 and later
 
 ## Installation
 
-SwiftBarcodeReader is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+### Cocoapod
 
 ```ruby
 pod "SwiftBarcodeReader"
 ```
 
+### Carthage
+
+``` ruby
+carthage update --platform-iOS
+```
+
 ## Author
 
-Daiki Matsudate, d.matsudate@gmail.com
+Daiki Matsudate([@d_date](https://twitter.com/d_date))
+
+## Contribute
+
+ If you want to add new feature or fix bug, make an issue first and try to contact me.
 
 ## License
 

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "83BCF72B1DA0C26D00F63491"
-               BuildableName = "SwiftBarcodeReader-iOS.framework"
+               BuildableName = "SwiftBarcodeReader.framework"
                BlueprintName = "SwiftBarcodeReader-iOS"
                ReferencedContainer = "container:SwiftBarcodeReader.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "83BCF72B1DA0C26D00F63491"
-            BuildableName = "SwiftBarcodeReader-iOS.framework"
+            BuildableName = "SwiftBarcodeReader.framework"
             BlueprintName = "SwiftBarcodeReader-iOS"
             ReferencedContainer = "container:SwiftBarcodeReader.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "83BCF72B1DA0C26D00F63491"
-            BuildableName = "SwiftBarcodeReader-iOS.framework"
+            BuildableName = "SwiftBarcodeReader.framework"
             BlueprintName = "SwiftBarcodeReader-iOS"
             ReferencedContainer = "container:SwiftBarcodeReader.xcodeproj">
          </BuildableReference>
