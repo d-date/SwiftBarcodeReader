@@ -15,7 +15,6 @@
 		83BCF6F91DA0AC4000F63491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BCF6F71DA0AC4000F63491 /* LaunchScreen.storyboard */; };
 		83BCF7051DA0B10800F63491 /* SwiftBarcodeReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BCF6AA1DA0AB3D00F63491 /* SwiftBarcodeReader.framework */; };
 		83BCF70F1DA0B34F00F63491 /* AVMetadataObjectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BCF7091DA0B34F00F63491 /* AVMetadataObjectType.swift */; };
-		83BCF7101DA0B34F00F63491 /* BarcodeReader.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BCF70A1DA0B34F00F63491 /* BarcodeReader.storyboard */; };
 		83BCF7111DA0B34F00F63491 /* BarcodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BCF70B1DA0B34F00F63491 /* BarcodeReaderViewController.swift */; };
 		83BCF7121DA0B34F00F63491 /* DMCodeCaptureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BCF70C1DA0B34F00F63491 /* DMCodeCaptureHandler.swift */; };
 		83BCF7131DA0B34F00F63491 /* UIViewController+BarcodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BCF70D1DA0B34F00F63491 /* UIViewController+BarcodeReader.swift */; };
@@ -23,11 +22,12 @@
 		83BCF7331DA0C26D00F63491 /* SwiftBarcodeReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BCF72C1DA0C26D00F63491 /* SwiftBarcodeReader.framework */; };
 		83BCF7341DA0C26D00F63491 /* SwiftBarcodeReader.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 83BCF72C1DA0C26D00F63491 /* SwiftBarcodeReader.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		83BCF7381DA0C28000F63491 /* AVMetadataObjectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BCF7091DA0B34F00F63491 /* AVMetadataObjectType.swift */; };
-		83BCF7391DA0C28000F63491 /* BarcodeReader.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BCF70A1DA0B34F00F63491 /* BarcodeReader.storyboard */; };
 		83BCF73A1DA0C28000F63491 /* BarcodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BCF70B1DA0B34F00F63491 /* BarcodeReaderViewController.swift */; };
 		83BCF73B1DA0C28000F63491 /* DMCodeCaptureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BCF70C1DA0B34F00F63491 /* DMCodeCaptureHandler.swift */; };
 		83BCF73C1DA0C28000F63491 /* UIViewController+BarcodeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BCF70D1DA0B34F00F63491 /* UIViewController+BarcodeReader.swift */; };
 		83BCF73D1DA0C38500F63491 /* SwiftBarcodeReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BCF6AA1DA0AB3D00F63491 /* SwiftBarcodeReader.framework */; };
+		83BCF7401DA0E5AF00F63491 /* BarcodeReader.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BCF73F1DA0E5AF00F63491 /* BarcodeReader.storyboard */; };
+		83BCF7411DA0E5AF00F63491 /* BarcodeReader.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BCF73F1DA0E5AF00F63491 /* BarcodeReader.storyboard */; };
 		AA33C17393F758327AECB5A1 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D537E649447713A5F184902 /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,13 +75,13 @@
 		83BCF6F81DA0AC4000F63491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83BCF6FA1DA0AC4000F63491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83BCF7091DA0B34F00F63491 /* AVMetadataObjectType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVMetadataObjectType.swift; sourceTree = "<group>"; };
-		83BCF70A1DA0B34F00F63491 /* BarcodeReader.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BarcodeReader.storyboard; sourceTree = "<group>"; };
 		83BCF70B1DA0B34F00F63491 /* BarcodeReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeReaderViewController.swift; sourceTree = "<group>"; };
 		83BCF70C1DA0B34F00F63491 /* DMCodeCaptureHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMCodeCaptureHandler.swift; sourceTree = "<group>"; };
 		83BCF70D1DA0B34F00F63491 /* UIViewController+BarcodeReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+BarcodeReader.swift"; sourceTree = "<group>"; };
 		83BCF72C1DA0C26D00F63491 /* SwiftBarcodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftBarcodeReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BCF72E1DA0C26D00F63491 /* SwiftBarcodeReader-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftBarcodeReader-iOS.h"; sourceTree = "<group>"; };
 		83BCF72F1DA0C26D00F63491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83BCF73F1DA0E5AF00F63491 /* BarcodeReader.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BarcodeReader.storyboard; sourceTree = "<group>"; };
 		9D537E649447713A5F184902 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E248762A8A48E5151A3AAE /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,6 +150,7 @@
 			children = (
 				83BCF6AD1DA0AB3D00F63491 /* SwiftBarcodeReader.h */,
 				83BCF6AE1DA0AB3D00F63491 /* Info.plist */,
+				83BCF73E1DA0E5AF00F63491 /* Assets */,
 				83BCF7071DA0B34F00F63491 /* Sources */,
 			);
 			path = SwiftBarcodeReader;
@@ -172,7 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				83BCF7091DA0B34F00F63491 /* AVMetadataObjectType.swift */,
-				83BCF70A1DA0B34F00F63491 /* BarcodeReader.storyboard */,
 				83BCF70B1DA0B34F00F63491 /* BarcodeReaderViewController.swift */,
 				83BCF70C1DA0B34F00F63491 /* DMCodeCaptureHandler.swift */,
 				83BCF70D1DA0B34F00F63491 /* UIViewController+BarcodeReader.swift */,
@@ -187,6 +187,14 @@
 				83BCF72F1DA0C26D00F63491 /* Info.plist */,
 			);
 			path = "SwiftBarcodeReader-iOS";
+			sourceTree = "<group>";
+		};
+		83BCF73E1DA0E5AF00F63491 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				83BCF73F1DA0E5AF00F63491 /* BarcodeReader.storyboard */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		CDAEFCE456F862649E1ED0FF /* Pods */ = {
@@ -331,7 +339,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83BCF7101DA0B34F00F63491 /* BarcodeReader.storyboard in Resources */,
+				83BCF7401DA0E5AF00F63491 /* BarcodeReader.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +357,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83BCF7391DA0C28000F63491 /* BarcodeReader.storyboard in Resources */,
+				83BCF7411DA0E5AF00F63491 /* BarcodeReader.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,6 +726,7 @@
 				83BCF7371DA0C26D00F63491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

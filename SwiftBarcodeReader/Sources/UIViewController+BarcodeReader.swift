@@ -52,7 +52,7 @@ public extension UIViewController {
                               needChangePositionButton: Bool,
                               success: ((_ type:AVMetadataObjectType, _ value: String) -> ())?,
                               failure: @escaping ((_ cancel: Bool, _ error: Error?) -> ())) {
-        let bundle = Bundle(identifier: "d-date.SwiftBarcodeReader")
+        let bundle = Bundle(identifier: "SBRResource")
         let storyboard = UIStoryboard(name: "BarcodeReader", bundle: bundle)
         let vc: BarcodeReaderViewController = storyboard.instantiateInitialViewController() as! BarcodeReaderViewController
         vc.successClosure = success

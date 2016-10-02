@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/d-date/SwiftBarcodeReader.git" }
 
-  s.source_files = 'Source/*.{swift, storyboard}'
+  s.source_files = 'Source/*.swift'
+  s.resource_bundles = {'SBRResource' => ['Assets/*.storyboard']}
 end
