@@ -1,10 +1,5 @@
 # SwiftBarcodeReader
 
-[![CI Status](http://img.shields.io/travis/Daiki Matsudate/SwiftBarcodeReader.svg?style=flat)](https://travis-ci.org/Daiki Matsudate/SwiftBarcodeReader)
-[![Version](https://img.shields.io/cocoapods/v/SwiftBarcodeReader.svg?style=flat)](http://cocoapods.org/pods/SwiftBarcodeReader)
-[![License](https://img.shields.io/cocoapods/l/SwiftBarcodeReader.svg?style=flat)](http://cocoapods.org/pods/SwiftBarcodeReader)
-[![Platform](https://img.shields.io/cocoapods/p/SwiftBarcodeReader.svg?style=flat)](http://cocoapods.org/pods/SwiftBarcodeReader)
-
 This is a helper library for capturing barcode or QR written in Swift.
 
 ## Usage
@@ -17,9 +12,9 @@ You can specifiy `AVMetadataObjectTypes` as enum, requirement of change camera p
 import SwiftBarcodeReader
 
 func appear(){
-        presentBarcodeReader(scanTypes: [.EAN13Code],
-                             needChangePositionButton: true,
-                             success: {[unowned self] (type, value) in
+        presentBarcodeReader(scanTypes: [.EAN13Code], //you can specify code type to scan type as enum value
+                             needChangePositionButton: true, // If you need change position button, pass `true`
+                             success: { (type, value) in
             print("type:\(type) value:\(value)")
             self.resultLabel.text = "\(value)"
 
@@ -40,6 +35,7 @@ func appear(){
 
 
 ## Requirements
+
 * Xcode 8 and Swift 3.0
 * iOS 8.0 and later
 
